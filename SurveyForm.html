@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF=8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form id="survey-form" method="post" action="https://survey-form.freecodecamp.rocks">
+<header><h1 id="title">Survey Form</h1>
+<p id="description">Welcome to our Survey! Your Feedback is Valuable to Us.</p></header>
+
+<label id="name-label" for="name">Enter Your Name: <input type="text" id="name" value="Christian GUHIRWA" placeholder="Type you name here" required>
+</label>
+
+<label id="email-label" for="email"> Enter Your Email: <input type="email" id="email" value="christianguhirwa74@gmail.com" placeholder="Type your email here" required>
+</label>
+
+<label id="number-label" for="number">How many Surveys did you attend? (Including this Survey) <input type="number" id="number" min="1" max="4" placeholder="Choose between 1-4">
+</label>
+
+<label> How Was our Survey?
+  <select id="dropdown">
+    <option value="">(select one)</option>
+    <option value="1">Interesting</option>
+    <option value="2">Not Interesting</option>
+  </select>
+</label>
+<hr>
+
+<fieldset>
+  <legend>what is your favourite leisure between these below?</legend>
+<label>
+  <input name="coding" type="radio" value="coding"> Coding
+  </label>
+<label>
+  <input name="coding" type="radio" value="sport"> Sport</label> 
+</fieldset>
+
+<fieldset>
+  <legend>If is Coding those it the prefered one or you do that for some profit?</legend>
+<label><input name="sport" type="radio" value="yes"> Yes</label>
+<label><input name="sport" type="radio" value="no"> No</label>
+<label>
+</fieldset>
+<fieldset><legend>What do You like to do in freetime? </legend>
+<label><input type="checkbox" value="coding"> I Do Coding
+</label>
+<label><input type="checkbox" value="sport"> I Do Sport
+</label>
+</fieldset>
+<label for="comment"> Add a Comment below.
+  <textarea id="comment" rows="6" placeholder="Your comment here"></textarea>
+</label>
+<label>
+  <input type="submit" id="submit">
+</form>
+</body>
+<html>
+
+    
